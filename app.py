@@ -9,5 +9,5 @@ def hello_world():
 
 @app.route('/test/<foo>')
 def new_name(foo):
-    answer = "Hello " + foo
+    answer = "Hello " + foo + "!!!"
     return answer
